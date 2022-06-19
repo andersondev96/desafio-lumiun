@@ -24,23 +24,23 @@
                     </thead>
                     <tbody>
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-48 font-mono font-medium text-gray-800">ID</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $category->id}}</td>
+                            <td class="px-4 py-2 w-48 font-medium text-gray-800">ID</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $category->id}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-48 font-mono font-medium text-gray-800">Nome</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $category->name}}</td>
+                            <td class="px-4 py-2 w-48 font-medium text-gray-800">Nome</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $category->name}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-48 font-mono font-medium text-gray-800">Descrição</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $category->description}}</td>
+                            <td class="px-4 py-2 w-48 font-medium text-gray-800">Descrição</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $category->description}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-48 font-mono font-medium text-gray-800">Tipo</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $category->type_category}}</td>
+                            <td class="px-4 py-2 w-48 font-medium text-gray-800">Tipo</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $category->type_category}}</td>
                         </tr>
                 </table>
 

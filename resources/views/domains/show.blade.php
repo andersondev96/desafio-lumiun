@@ -16,74 +16,74 @@
                 <table class="overflow-hidden sm:rounded-lg">
                     <tbody>
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">ID</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->id}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">ID</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->id}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">ID do domínio</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->domain_id}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">ID do domínio</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->domain_id}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Nome</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Nome</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">
                                 {{ $domain->name .".". $domain->category->name }}
                             </td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Categoria</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->category->name}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Categoria</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->category->name}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Descrição</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->description}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Descrição</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->description}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">URL</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->url}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">URL</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->url}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Servidor</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->server_name}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Servidor</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->server_name}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Proprietário do domínio</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->organization_name}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Proprietário do domínio</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->organization_name}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">E-mail do proprietário</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->email_organization}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">E-mail do proprietário</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->email_organization}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Telefone do proprietário</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">{{ $domain->phone_organization}}</td>
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Telefone do proprietário</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">{{ $domain->phone_organization}}</td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Data de expiração do domínio</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Data de expiração do domínio</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">
                                 {{ \Carbon\Carbon::parse($domain->expiration_date)->format('d/m/Y')}}
                             </td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Cadastrado em</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Cadastrado em</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">
                                 {{\Carbon\Carbon::parse($domain->created_at)->format('d/m/Y H:i:s')}}
                             </td>
                         </tr>
 
                         <tr class="h-12">
-                            <td class="px-4 py-2 w-64 font-mono font-medium text-gray-800">Última modificação</td>
-                            <td class="px-4 py-2 font-mono text-gray-900 ml-8">
+                            <td class="px-4 py-2 w-64 font-medium text-gray-800">Última modificação</td>
+                            <td class="px-4 py-2 text-gray-900 ml-8">
                                 {{\Carbon\Carbon::parse($domain->updated_at)->format('d/m/Y H:i:s')}}
                             </td>
                         </tr>
