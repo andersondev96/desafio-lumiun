@@ -76,9 +76,10 @@ ou
 </a>
 
 **Rodando a aplicação**
+1. Antes de executar a aplicação rode o comando ```php artisan key:generate``` para definir o valor da APP_KEY em seu arquivo .env.
 1. Para rodar a aplicação execute o comando ```php artisan serve``` no seu terminal.
 2. Em um navegador acesse a url ```http://localhost:8000```.
-3. Será exibida a tela abaixo:
+4. Será exibida a tela abaixo:
 
     <img src="print-home.png" width="400px">
 
