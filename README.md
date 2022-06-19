@@ -85,7 +85,7 @@ ou
 ## Autor
 <a href="https://www.linkedin.com/in/anderson-fernandes96/">
     <div style="display: flex; flex-direction: column; align-items: center; gap: 10px">
-    <img src="https://scontent.fcnf1-1.fna.fbcdn.net/v/t1.18169-9/29512828_1303149139830011_135082545494798158_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=GmAr0nnKvWAAX-0ugZM&_nc_ht=scontent.fcnf1-1.fna&oh=00_AT_-ho14sZPF_WII6lyqcUkuAm5tHbCn6saTheBJYY8nRQ&oe=62D5CAF6" width="64" style="border: 2px solid blue; border-radius: 50px" />
+    <img src="https://scontent.fcnf1-1.fna.fbcdn.net/v/t1.18169-9/29512828_1303149139830011_135082545494798158_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=GmAr0nnKvWAAX-0ugZM&_nc_ht=scontent.fcnf1-1.fna&oh=00_AT_-ho14sZPF_WII6lyqcUkuAm5tHbCn6saTheBJYY8nRQ&oe=62D5CAF6" width="64" style="border: 2px solid blue; border-radius: 50px;"> <br>
     <strong>Anderson Fernandes Ferreira</strong>
     </div><br>
     <div style="display:flex; flex-direction:row;gap:8px;">
