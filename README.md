@@ -45,7 +45,7 @@ Para executar a aplicação é necessário ter instalado em sua máquina:
     ```
     composer install
     npm install
-    
+    npm run dev
     ```
 **Agora vamos para a configuração do banco de dados:**
 
