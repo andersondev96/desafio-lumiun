@@ -38,6 +38,13 @@
                                     placeholder="Digite o nome do domínio"
                                     class="appearence-none block w-full bg-gray-200 text-gray-700 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-whrite focus:border-gray-500{{$errors->has('name') ? 'focus:outline-none border-red-500' : ''}}"
                                 />
+                                @if($errors->has('name'))
+                                    <div class="text-red-500 text-sm">
+                                        @foreach($errors->get('name') as $error)
+                                            {{ $error }}
+                                        @endforeach
+                                    </div>
+                                @endif
 
                             </div>
 

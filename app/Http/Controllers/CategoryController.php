@@ -81,7 +81,19 @@ class CategoryController extends Controller
      */
     public function update(Request $request, Category $category)
     {
-        $category->fill($request->all());
+
+        $request->validate([
+            'type_category' => 'required',
+            'name' => 'required|unique:categories,name,' . $category->id,
+            'description' => 'required',
+        ]);
+
+        $category->update([
+            'type_category' => $request->type_category,
+            'name' => $request->name,
+            'description' => $request->description,
+        ]);
+
         $category->save();
         session()->flash('message', 'Categoria alterada com sucesso');
         return redirect()->route('categories.index');

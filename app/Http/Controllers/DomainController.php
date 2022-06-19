@@ -100,6 +100,18 @@ class DomainController extends Controller
      */
     public function update(Request $request, Domain $domain)
     {
+        $request->validate([
+            'name' => 'required|unique:domains,name,' .$domain->id,
+            'description' => 'required',
+            'url' => 'required|url|unique:domains,url,' .$domain->id,
+            'server_name' => 'required',
+            'organization_name' => 'required',
+            'email_organization' => 'required|email',
+            'phone_organization' => 'required|min:11',
+            'category_id' => 'required',
+            'expiration_date' => 'required',
+        ]);
+
         $domain->update([
             'domain_id' => $domain->domain_id,
             'name' => $request->name,

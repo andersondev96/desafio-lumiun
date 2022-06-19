@@ -57,12 +57,12 @@
                                     id="grid-description"
                                     type="text"
                                     value="{{ $category->description }}"
-                                    class="appearence-none block w-full bg-gray-200 text-gray-700 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-whrite focus:border-gray-500 {{$errors->has('name') ? 'focus:outline-none border-red-500' : ''}}"
+                                    class="appearence-none block w-full bg-gray-200 text-gray-700 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-whrite focus:border-gray-500 {{$errors->has('description') ? 'focus:outline-none border-red-500' : ''}}"
                                 />
 
                                 @if($errors->has('description'))
                                     <div class="text-red-500 text-sm">
-                                        @foreach($errors->get('name') as $error)
+                                        @foreach($errors->get('description') as $error)
                                             {{ $error }}
                                         @endforeach
                                     </div>
@@ -80,7 +80,7 @@
                                 </label>
                                 <select
                                     name="type_category"
-                                    class="appearence-none block w-full bg-gray-200 text-gray-700 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-whrite focus:border-gray-500 {{$errors->has('name') ? 'focus:outline-none border-red-500' : ''}}"
+                                    class="appearence-none block w-full bg-gray-200 text-gray-700 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-whrite focus:border-gray-500 {{$errors->has('type_category') ? 'focus:outline-none border-red-500' : ''}}"
                                     id="grid-type"
                                 >
                                     <option value="" selected disabled>Selecione uma opção</option>

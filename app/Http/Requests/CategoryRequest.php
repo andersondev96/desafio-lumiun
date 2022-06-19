@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Http\Request;
 
 class CategoryRequest extends FormRequest
 {
@@ -12,12 +13,12 @@ class CategoryRequest extends FormRequest
         return true;
     }
 
-    public function rules()
+    public function rules(Request $request)
     {
 
         return [
             'type_category' => 'required',
-            'name' => 'required|unique:categories',
+            'name' => 'required|unique:categories,name,',
             'description' => 'required',
         ];
     }
