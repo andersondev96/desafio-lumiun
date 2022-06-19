@@ -57,7 +57,7 @@ Para executar a aplicação é necessário ter instalado em sua máquina:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=limiun # Crie este banco de dados no mysql primeiro
+DB_DATABASE=lumiun # Crie este banco de dados no mysql primeiro
 DB_USERNAME=<seu nome de usuário mysql>
 DB_PASSWORD=<sua senha mysql>
 
