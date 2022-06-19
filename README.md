@@ -1,6 +1,6 @@
 # Desafio Lumiun - Desenvolvedor PHP Larvel Júnior
 
-[Sobre o projeto](#sobre-o-projeto) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como executar o projeto](#como-executar-a-aplicação) | [Autor](#autor) | [Licensa](#licensa)
+[Sobre o projeto](#sobre-o-projeto) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como executar o projeto](#como-executar-a-aplicação) | [Autor](#autor) | [Licença](#licença)
 
 ## Sobre o projeto
 
@@ -96,4 +96,14 @@ ou
   <a href = "mailto:andersonfferreira96@gmail.com.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
     <a href="https://www.linkedin.com/in/anderson-fernandes96/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
     </div>
+    
+## Licença
+    
+ <p>Este projeto está sobre a licença <a href="license.md">MIT</a>.
+
+Feito com 💚 por Anderson Fernandes 👋 
+<a href="https://www.linkedin.com/in/anderson-fernandes96/">Entre em contato!</a>
+<br>
+    
+    
 
