@@ -34,7 +34,7 @@ Para executar a aplicação é necessário ter instalado em sua máquina:
 **Agora prossiga com os seguintes passos:**
 1. Clone este repositório: 
 
-    ```git clone [repo]```
+    ```git clone https://github.com/andersondev96/desafio-lumiun```
 
 2. Acesse a pasta ```desafio-lumiun```
 
