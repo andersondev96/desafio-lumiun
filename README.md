@@ -1,6 +1,6 @@
 # Desafio Lumiun - Desenvolvedor PHP Larvel Júnior
 
-[Sobre o projeto](#-sobre-o-projeto) | [Tecnologias utilizadas](#-tecnologias-utilizadas) | [Como executar o projeto](#-como-executar-o-projeto) | [Autor](#-autor) | [Licensa](#-licensa)
+[Sobre o projeto](#sobre-o-projeto) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como executar o projeto](#como-executar-a-aplicação) | [Autor](#autor) | [Licensa](#licensa)
 
 ## Sobre o projeto
 
