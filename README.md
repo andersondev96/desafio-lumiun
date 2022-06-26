@@ -1,4 +1,4 @@
-# Desafio Lumiun - Desenvolvedor PHP Larvel Júnior
+# Desafio Lumiun - Desenvolvedor PHP Laravel Júnior
 
 [Sobre o projeto](#sobre-o-projeto) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como executar o projeto](#como-executar-a-aplicação) | [Autor](#autor) | [Licença](#licença)
 
